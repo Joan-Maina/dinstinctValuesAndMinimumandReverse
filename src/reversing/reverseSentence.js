@@ -1,13 +1,14 @@
 const reverseSentence = (sentence) =>{
 //normal way
-    // var splitWords = sentence.split(" ");
-
-    // var reversed = splitWords.reverse();
-
-    // var joined = reversed.join(" ");
+    // let splitWords = sentence.split(" ");
+    // console.log(splitWords)
+    // let reversed = splitWords.reverse();
+    //  console.log(reversed)
+    // let joined = reversed.join(" ");
+    // console.log(joined);
     
 //shorthand    
-    var joined = sentence.split(" ").reverse().join(" ");
+    let joined = sentence.split(" ").reverse().join(" ");
 
     console.log(joined);
 }
